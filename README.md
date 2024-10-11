@@ -5,13 +5,15 @@ It includes user authetication and profile feautures, it also has the ability fo
 The admin account can also see all the ongoing projects and can see all the current employess and can add and remove them at will.
 
 ## Technologies Used
-Python (Version 3.10.9)
-Flask (Web Framework)
-SQLite (Database for storing data)
-HTML/CSS (For front-end interface)
-Flask_wtf (WTForms functionality)
-WTForms (Form handling)
-Werkzeug (Security Utilities)
+<ul>
+<li>Python (Version 3.10.9)</li>
+<li>Flask (Web Framework)</li>
+<li>SQLite (Database for storing data)</li>
+<li>HTML/CSS (For front-end interface)</li>
+<li>Flask_wtf (WTForms functionality)</li>
+<li>WTForms (Form handling)</li>
+<li>Werkzeug (Security Utilities)</li>
+</ul>
 
 ## How to Run
 flask run
