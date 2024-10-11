@@ -24,6 +24,6 @@ The admin account can also see all the ongoing projects and can see all the curr
 <li>User authentication (signup, login, logout)</li>
 <li>Product/Service/Employee management (Add, update, delete)</li>
 <li>A profile which complies all orders reviews and whichlisted items belonging to user</li>
-<li>>The ability to buy products or services</li>
+<li>The ability to buy products or services</li>
 <li>Search Functionality </li>
 </ul>
