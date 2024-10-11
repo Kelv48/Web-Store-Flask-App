@@ -4,7 +4,7 @@ This is a Flask-based web application that allows users to buy products or servi
 It includes user authetication and profile feautures, it also has the ability for an admin account to add new products/services or for the admin to manage orders and moderate reviews.
 The admin account can also see all the ongoing projects and can see all the current employess and can add and remove them at will.
 
-Technologies Used
+## Technologies Used
 Python (Version 3.10.9)
 Flask (Web Framework)
 SQLite (Database for storing data)
@@ -13,11 +13,11 @@ Flask_wtf (WTForms functionality)
 WTForms (Form handling)
 Werkzeug (Security Utilities)
 
-How to Run
+## How to Run
 flaks run
 Open http://127.0.0.1:5000/ in your browser
 
-Feautures
+## Feautures
 User authentication (signup, login, logout)
 Product/Service/Employee management (Add, update, delete)
 A profile which complies all orders reviews and whichlisted items belonging to user
