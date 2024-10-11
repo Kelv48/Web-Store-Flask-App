@@ -16,12 +16,14 @@ The admin account can also see all the ongoing projects and can see all the curr
 </ul>
 
 ## How to Run
-flask run
-Open http://127.0.0.1:5000/ in your browser
+<li>flask run</li>
+<li>Open http://127.0.0.1:5000/ in your browser</li>
 
 ## Feautures
-User authentication (signup, login, logout)
-Product/Service/Employee management (Add, update, delete)
-A profile which complies all orders reviews and whichlisted items belonging to user
-The ability to buy products or services
-Search Functionality 
+<ul>
+<li>User authentication (signup, login, logout)</li>
+<li>Product/Service/Employee management (Add, update, delete)</li>
+<li>A profile which complies all orders reviews and whichlisted items belonging to user</li>
+<li>>The ability to buy products or services</li>
+<li>Search Functionality </li>
+</ul>
