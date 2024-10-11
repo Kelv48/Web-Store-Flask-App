@@ -27,3 +27,60 @@ The admin account can also see all the ongoing projects and can see all the curr
 <li>The ability to buy products or services</li>
 <li>Search Functionality </li>
 </ul>
+
+## Project Structure
+
+<h2>Project Structure</h2>
+<pre>
+<code>
+/flask_Session
+│
+├── /static
+│   ├── /images
+│   │   ├── empty_star.jpg
+│   │   ├── favicon.ico
+│   │   ├── star.png
+│   └── styles.css
+│
+├── /templates
+│   ├── about.html
+│   ├── admin
+│   │   ├── admin_orders.html
+│   │   ├── admin_support.html
+│   ├── all_employees.html
+│   ├── base.html
+│   ├── blog.html
+│   ├── cart.html
+│   ├── catalog.html
+│   ├── catalog_management.html
+│   ├── checkout.html
+│   ├── employees.html
+│   ├── employee_management.html
+│   ├── employee_new.html
+│   ├── faq.html
+│   ├── index.html
+│   ├── my_profile.html
+│   ├── my_profile_setup.html
+│   ├── my_account.html
+│   ├── orders.html
+│   ├── product_management.html
+│   ├── products_new.html
+│   ├── product_update.html
+│   ├── products.html
+│   ├── research.html
+│   ├── research_new.html
+│   ├── service_new.html
+│   ├── sign_in_status.html
+│   ├── support.html
+│   └── wishlist.html
+│
+├── .flaskenv
+├── app.db
+├── app.py
+├── database.py
+├── forms.py
+├── requirements.txt
+├── run.py
+└── schema.sql
+</code>
+</pre>
