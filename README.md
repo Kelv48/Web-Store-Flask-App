@@ -28,8 +28,6 @@ The admin account can also see all the ongoing projects and can see all the curr
 <li>Search Functionality </li>
 </ul>
 
-## Project Structure
-
 <h2>Project Structure</h2>
 <pre>
 <code>
