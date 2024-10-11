@@ -42,9 +42,8 @@ The admin account can also see all the ongoing projects and can see all the curr
 │
 ├── /templates
 │   ├── about.html
-│   ├── admin
-│   │   ├── admin_orders.html
-│   │   ├── admin_support.html
+│   ├── admin_orders.html
+│   ├── admin_support.html
 │   ├── all_employees.html
 │   ├── base.html
 │   ├── blog.html
