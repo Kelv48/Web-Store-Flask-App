@@ -84,3 +84,19 @@ The admin account can also see all the ongoing projects and can see all the curr
 └── schema.sql
 </code>
 </pre>
+
+### Explanation of the Project Structure:
+
+- **`/static`**: Contains static files like images and styles.
+  - **`/images`**: Folder containing image files.
+    - `empty_star.jpg`: An image file.
+    - `favicon.ico`: The favicon for the website.
+    - `star.png`: Another image file.
+  - `styles.css`: The CSS file for styling the web app.
+  
+- **`/templates`**: Contains all HTML template files.
+  - Various HTML files for different views in the app.
+- **`app.db`**: The database.
+- **`app.py`**: The flask app itself and all its functions.
+- **`forms.py`**: All the wtforms for the flask app.
+- **`schema.sql`**: All the SQL queries for the setting up of and inserting data into the db on launch
