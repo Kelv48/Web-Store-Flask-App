@@ -16,8 +16,9 @@ The admin account can also see all the ongoing projects and can see all the curr
 </ul>
 
 ## How to Run
-<li>flask run</li>
-<li>Open http://127.0.0.1:5000/ in your browser</li>
+<b>Have docker installed and configured 'docker build -t my-flask-app .'</b>
+<b>Run the docker container 'docker run -p 5000:5000 my-flask-app'</b>
+<b>Open 'http://127.0.0.1:5000/' in your browser</b>
 
 ## Feautures
 <ul>

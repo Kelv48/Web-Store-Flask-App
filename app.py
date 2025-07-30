@@ -900,3 +900,6 @@ def handle_exception(e):
 @app.errorhandler(403)
 def handle_exception(e):
     return "<h1>403 Forbidden</h1><p>The request you have made is forbidden</p>"
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
