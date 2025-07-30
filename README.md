@@ -1,8 +1,8 @@
 # Web Store Flask App
 
 This is a Flask-based web application that allows users to buy products or services, to wishlist and rate items.
-It includes user authetication and profile feautures, it also has the ability for an admin account to add new products/services or for the admin to manage orders and moderate reviews.
-The admin account can also see all the ongoing projects and can see all the current employess and can add and remove them at will.
+It includes user authentication and profile features, it also has the ability for an admin account to add new products/services or for the admin to manage orders and moderate reviews.
+The admin account can also see all the ongoing projects and can see all the current employees and can add and remove them at will.
 
 ## Technologies Used
 <ul>
@@ -16,11 +16,11 @@ The admin account can also see all the ongoing projects and can see all the curr
 </ul>
 
 ## How to Run
-<b>Have docker installed and configured 'docker build -t my-flask-app .'</b>
-<b>Run the docker container 'docker run -p 5000:5000 my-flask-app'</b>
-<b>Open 'http://127.0.0.1:5000/' in your browser</b>
+<b>Have docker installed and configured `docker build -t my-flask-app .`</b>
+<b>Run the docker container `docker run -p 5000:5000 my-flask-app`</b>
+<b>Open `http://127.0.0.1:5000/` in your browser</b>
 
-## Feautures
+## Features
 <ul>
 <li>User authentication (signup, login, logout)</li>
 <li>Product/Service/Employee management (Add, update, delete)</li>
