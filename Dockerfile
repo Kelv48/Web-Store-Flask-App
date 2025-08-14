@@ -1,16 +1,20 @@
-FROM python:3.11
+# Use official Python image
+FROM python:3.11-slim
 
-# Set working directory inside the container
+# Set working directory
 WORKDIR /app
 
-# Copy everything in your repo (including database.py, templates, etc.)
-COPY . .
+# Copy dependencies first for better caching
+COPY requirements.txt .
 
 # Install dependencies
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose the port
+# Copy the rest of the app
+COPY . .
+
+# Expose Flask port
 EXPOSE 5000
 
-# Run your Flask app
-CMD ["python", "app.py"]
+# Run the Flask app
+CMD ["python", "src/app.py"]
